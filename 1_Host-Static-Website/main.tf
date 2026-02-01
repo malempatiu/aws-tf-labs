@@ -100,7 +100,7 @@ resource "aws_cloudfront_distribution" "s3_distribution" {
 # Bucket Policy for CDN
 resource "aws_s3_bucket_policy" "allow_access_from_cdn" {
   bucket     = aws_s3_bucket.static_site.id
-  depends_on = [aws_s3_bucket_public_access_block.bucket_blocks]
+  depends_on = [aws_s3_bucket_public_access_block.bucket_blocks, aws_cloudfront_distribution.s3_distribution]
   policy = jsonencode({
     "Version" : "2012-10-17",
     "Statement" : [

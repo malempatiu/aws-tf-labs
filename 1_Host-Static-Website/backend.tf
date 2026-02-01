@@ -5,7 +5,7 @@
 */
 terraform {
   backend "s3" {
-    bucket       = "malempati-cdops-lab-static-host-state-bucket"
+    bucket       = "malempati-cdops-lab-static-site-state"
     key          = "dev/terraform.tfstate"
     region       = "eu-central-1"
     encrypt      = true
