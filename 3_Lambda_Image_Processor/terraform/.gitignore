@@ -27,3 +27,6 @@ terraform.rc
 logs/
 *.log
 volume/*
+
+
+*.zip
