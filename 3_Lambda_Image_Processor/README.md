@@ -1,7 +1,8 @@
 ## 🏗️ Architecture Overview
 This lab implements a fully serverless image processing pipeline using AWS Lambda, triggered by S3 events, demonstrating event-driven architecture.
 
-<img width="1016" height="449" alt="Screenshot 2026-02-14 at 12 33 36" src="https://github.com/user-attachments/assets/b7cc1bf2-b03e-4b84-8708-c7cd6d02e4b6" />
+<img width="973" height="447" alt="Screenshot 2026-02-21 at 20 41 48" src="https://github.com/user-attachments/assets/e303e480-9fb1-4f50-bc5d-b320af4588db" />
+
 
 ### Components
 
